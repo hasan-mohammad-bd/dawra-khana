@@ -6,7 +6,7 @@ import Product from '../components/Product';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200'>
             <Navbar/>
             <Hero/>
             <MdSpeetch/>

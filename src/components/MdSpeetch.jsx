@@ -6,13 +6,13 @@ const MdSpeetch = () => {
   return (
     <div>
       <div>
-        <div className="justify-between items-center text-white flex flex-col md:flex-row-reverse bg-gradient-to-l from-cyan-400 via-sky-600 to-indigo-900">
+        <div className="justify-between items-center flex flex-col md:flex-row-reverse ">
           <div className="text flex-1 p-5 md:p-0">
             <div className="md:mx-8">
-            <h1 className="text-6xl font-bold mb-5">
-              A message from <br /> Our CEO
+            <h1 className="text-4xl font-bold mb-5">
+              A Message From <br /> Our CEO
             </h1>
-            <p className="text-white mb-5">
+            <p className="mb-5">
               " Since 1961, we've harnessed nature's power to heal and flourish.
               Under new leadership, we've overcome challenges, uplifted the
               company, and achieved stability. Join us on our remarkable journey
@@ -25,7 +25,7 @@ const MdSpeetch = () => {
             </div>
           </div>
           <div className="img flex-1">
-            <img src={image_2} alt="" />
+            <img className="rounded-[30px] p-5" src={image_2} alt="" />
           </div>
         </div>
       </div>
