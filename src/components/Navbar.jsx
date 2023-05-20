@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-base-300">
+    <div className="bg-gradient-to-r from-gray-100 via-gray-200 to-slate-300">
       <div className="py-3 navbar flex justify-between container mx-auto p-0">
         <div className="navbar-start">
           <div className="dropdown">
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal text-lg font-semibold">
+          <ul className="menu menu-horizontal text-md font-semibold">
             <li>
               <a>Home</a>
             </li>
