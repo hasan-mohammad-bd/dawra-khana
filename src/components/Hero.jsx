@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="justify-between items-center flex flex-col md:flex-row">
         <div className="text flex-1 p-5 md:p-0">
             <div className="md:mx-8">
-            <h1 className="text-6xl font-bold mb-5">
+            <h1 className="text-3xl md:text-6xl font-bold mb-5">
             Blossom into <br /> Vibrant Wellness..
           </h1>
           <p className="mb-5">

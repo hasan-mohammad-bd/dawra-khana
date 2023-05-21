@@ -20,10 +20,10 @@ const slider = (
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_3}
-          className="max-w-[200px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
+          className="max-w-[150px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
         />
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold">Habbe Suranjan</h1>
+          <h1 className="text-xl md:text-4xl font-bold">Habbe Suranjan</h1>
           <p className="py-6 hidden md:block">
             Functionality: Effective for inflammation of glands,
             <br /> glandular pain, and gout.
@@ -46,10 +46,10 @@ const slider = (
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_4}
-          className="max-w-[200px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
+          className="max-w-[150px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
         />
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold">Habbe Suranjana</h1>
+          <h1 className="text-xl md:text-4xl font-bold">Habbe Suranjana</h1>
           <p className="py-6 hidden md:block">
             An exceptional natural medicine for general weakness,
             <br /> sperm enhancement, and nerve stimulation.
@@ -76,10 +76,10 @@ const slider = (
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_5}
-          className="max-w-[200px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
+          className="max-w-[150px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
         />
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold">Sharabat-Buyuri</h1>
+          <h1 className="text-xl md:text-4xl font-bold">Sharabat-Buyuri</h1>
           <p className="py-6 hidden md:block">
             Preventive measures against kidney disease require conscious
             <br />
@@ -116,10 +116,10 @@ const slider = (
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_6}
-          className="max-w-[200px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
+          className="max-w-[150px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
         />
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold">Tila Mojluk</h1>
+          <h1 className="text-xl md:text-4xl font-bold">Tila Mojluk</h1>
           <p className="py-6 hidden md:block">
             Functionality: Effective in treating male impotence and curvature.
             <br />
@@ -145,10 +145,10 @@ const slider = (
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_7}
-          className="max-w-[200px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
+          className="max-w-[150px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
         />
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold">Nanakha</h1>
+          <h1 className="text-xl md:text-4xl font-bold">Nanakha</h1>
           <p className="py-6 hidden md:block">
             Source: Bangladesh National Unani Formulary (Unani Medicine)
             <br />
@@ -175,10 +175,10 @@ const slider = (
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_8}
-          className="max-w-[200px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
-        />
+          className="max-w-[150px] md:max-w-sm rounded-lg w-[100%]  shadow-2xl flex-1 p-5 md:ml-8"
+        /> 
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold">Deenar</h1>
+          <h1 className="text-xl md:text-4xl font-bold">Deenar</h1>
           <p className="py-6 hidden md:block">
             Functionality: Effective in treating liver inflammation, jaundice,
             <br /> obstructive jaundice, inflammation, bronchitis, pneumonia,{" "}
