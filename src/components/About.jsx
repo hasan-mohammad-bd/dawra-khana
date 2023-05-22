@@ -6,7 +6,7 @@ import Mission from "./Mission";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className="justify-between items-center flex flex-col md:flex-row">
         <div className="text flex-1 p-5 md:p-0">
           <div className="md:mx-8 mt-16 md:mt-24">
@@ -74,13 +74,7 @@ const About = () => {
               its offerings, introducing new medicines tailored to meet specific
               patient requirements. This customer-centric approach further
               solidified the company's reputation and contributed to its ongoing
-              success. <br /> <br /> Today, the company stands as a testament to the vision
-              and resilience of its founder, Md. Nasir Uddin Patwary, and the
-              dedication and determination of his son, Halim Forid Uddin
-              Patwary. With a strong foundation, a robust structure, and a
-              commitment to innovation, the company continues to make a positive
-              impact on people's lives, guided by the principles of herbal
-              healing and customer satisfaction.
+              success.
                 </p>
             </div>
           </div>

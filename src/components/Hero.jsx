@@ -16,7 +16,7 @@ const Hero = () => {
             being. With our carefully crafted herbal remedies, you can embrace
             the harmony of natural ingredients.
           </p>
-          <a href=""><button className="btn btn-success">Read More</button></a>
+          <a href="#about"><button className="btn btn-success">Read More</button></a>
             </div>
         </div>
         <div className="img flex-1">
