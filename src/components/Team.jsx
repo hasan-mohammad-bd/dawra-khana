@@ -8,9 +8,9 @@ import image_16 from "../assets/image-16.jpeg";
 // import image_17 from "../assets/image-16.jpeg";
 const Team = () => {
   return (
-    <div className="team">
+    <div id="team" className="team">
       <h2 className="text-4xl mt-24 text-center font-bold">Our Team</h2>
-      <div className="grid gap-10 grid-cols-1 md:grid-cols-3 container mx-auto py-10">
+      <div className="grid gap-10 grid-cols-1 md:grid-cols-3 max-w-[1000px] mx-auto py-10">
         <div className="overflow-hidden rounded-xl shadow-2xl p-5 bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
           <img className=" object-cover rounded-xl" src={image_12} />
           <h3 className="text-lg font-semibold text-center py-2">
@@ -35,7 +35,7 @@ const Team = () => {
         <div className="overflow-hidden rounded-xl shadow-2xl p-5 bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
           <img className=" object-cover rounded-xl" src={image_15} />
           <h3 className="text-lg font-semibold text-center py-2">
-            Mohammad Sha Ali
+            Mohammad Shah Ali
           </h3>
           <h4 className="text-sm text-center">QCA, Quantity Chemist Manager</h4>
         </div>

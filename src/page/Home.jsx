@@ -5,10 +5,13 @@ import MdSpeetch from '../components/MdSpeetch';
 import Product from '../components/Product';
 import About from '../components/About';
 import Team from '../components/Team';
+import Contact from '../components/Contact';
+import ContactAll from '../components/ContactAll';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
-        <div className=' bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200'>
+        <div id='' className='bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200'>
             <Navbar/>
             <Hero/>
             <MdSpeetch/>
@@ -16,6 +19,8 @@ const Home = () => {
             <Product/>
             <About/>
             <Team/>
+            <ContactAll/>
+            <Footer/>
         </div>
     );
 };

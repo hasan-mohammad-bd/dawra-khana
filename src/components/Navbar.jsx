@@ -3,7 +3,10 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-100 via-gray-200 to-slate-300">
+    <div
+      id="home"
+      className="bg-gradient-to-r from-gray-100 via-gray-200 to-slate-300"
+    >
       <div className="py-3 navbar flex justify-between container mx-auto p-0">
         <div className="navbar-start">
           <div className="dropdown">
@@ -27,21 +30,22 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
-              <li>
-                <a>Product</a>
-              </li>
-              <li>
-                <a>Our Team</a>
-              </li>
-              <li>
-                <a>Contact</a>
-              </li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+
+            <li>
+              <a href="#product">Product</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#team">Our Team</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
             </ul>
           </div>
           <div className="flex justify-between items-center min-w-[300px]">
@@ -59,19 +63,20 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <ul className="menu menu-horizontal text-md font-semibold">
             <li>
-              <a>Home</a>
+              <a href="#home">Home</a>
+            </li>
+
+            <li>
+              <a href="#product">Product</a>
             </li>
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Product</a>
+              <a href="#team">Our Team</a>
             </li>
             <li>
-              <a>Our Team</a>
-            </li>
-            <li>
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

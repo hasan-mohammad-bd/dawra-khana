@@ -11,12 +11,14 @@ import image_8 from "../assets/image-8.jpeg";
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const slider = (
-  <AutoplaySlider
+<div id="product">
+<AutoplaySlider
+  id=""
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
     interval={4000}
   >
-    <div className="hero h-full bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
+    <div id="" className="hero h-full bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
       <div className="hero-content  flex flex-col lg:flex-row-reverse">
         <img
           src={image_3}
@@ -202,6 +204,7 @@ const slider = (
       </div>
     </div>
   </AutoplaySlider>
+</div>
 );
 
 const Product = () => {
