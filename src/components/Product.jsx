@@ -38,7 +38,7 @@ const slider = (
             Precautions: Store away from light, in a cool and <br /> dry place.
             Keep out of reach of children.
           </p>
-          <a href=""><button className="btn btn-primary hidden md:block">
+          <a href="#contact"><button className="btn btn-primary hidden md:block">
             Contact Us
           </button></a>
         </div>
@@ -68,7 +68,7 @@ const slider = (
             <br />
             Consultation with a specialist doctor or hakim is recommended.
           </p>
-          <a href=""><button className="btn btn-primary hidden md:block">
+          <a href="#contact"><button className="btn btn-primary hidden md:block">
             Contact Us
           </button></a>
         </div>
@@ -108,7 +108,7 @@ const slider = (
             <br />
             Consultation with a specialist doctor or hakim is recommended.
           </p>
-          <a href=""><button className="btn btn-primary hidden md:block">
+          <a href="#contact"><button className="btn btn-primary hidden md:block">
             Contact Us
           </button></a>
         </div>
@@ -137,7 +137,7 @@ const slider = (
             Resume use when the condition improves. Keep away from <br />
             the reach of children and store in a cool and dry place.
           </p>
-          <a href=""><button className="btn btn-primary hidden md:block">
+          <a href="#contact"><button className="btn btn-primary hidden md:block">
             Contact Us
           </button></a>
         </div>
@@ -167,7 +167,7 @@ const slider = (
             sunlight. <br /> Keep out of reach of children. Shake the bottle
             well before consumption.
           </p>
-          <a href=""><button className="btn btn-primary hidden md:block">
+          <a href="#contact"><button className="btn btn-primary hidden md:block">
             Contact Us
           </button></a>
         </div>
@@ -197,7 +197,7 @@ const slider = (
             <br /> Keep out of reach of children. Shake the bottle well before
             consumption.
           </p>
-          <a href=""><button className="btn btn-primary hidden md:block">
+          <a href="#contact"><button className="btn btn-primary hidden md:block">
             Contact Us
           </button></a>
         </div>

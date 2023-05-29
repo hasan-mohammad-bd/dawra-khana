@@ -18,10 +18,7 @@ const MdSpeetch = () => {
               company, and achieved stability. Join us on our remarkable journey
               of herbal well-being and unlock your true potential. "
             </p>
-            <p className="my-3">- Halim Forid Uddin Patwary, CEO</p>
-            <a href="">
-              <button className="btn btn-success">Read More</button>
-            </a>
+            <p className="my-3">- Forid Uddin Patwary, CEO</p>
             </div>
           </div>
           <div className="img flex-1">

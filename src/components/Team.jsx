@@ -5,16 +5,17 @@ import image_13 from "../assets/image-13.jpeg";
 import image_14 from "../assets/image-14.jpeg";
 import image_15 from "../assets/image-15.jpeg";
 import image_16 from "../assets/image-16.jpeg";
+import image_17 from "../assets/image-17.jpeg";
 // import image_17 from "../assets/image-16.jpeg";
 const Team = () => {
   return (
     <div id="team" className="team">
       <h2 className="text-4xl mt-24 text-center font-bold">Our Team</h2>
-      <div className="grid gap-10 grid-cols-1 md:grid-cols-3 max-w-[1000px] mx-auto py-10">
+      <div className="grid gap-10 grid-cols-1 md:grid-cols-4 container mx-auto py-10">
         <div className="overflow-hidden rounded-xl shadow-2xl p-5 bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
           <img className=" object-cover rounded-xl" src={image_12} />
           <h3 className="text-lg font-semibold text-center py-2">
-            Shaefali Begum
+            Shefali Begum
           </h3>
           <h4 className="text-sm text-center">Vice President Production</h4>
         </div>
@@ -37,7 +38,7 @@ const Team = () => {
           <h3 className="text-lg font-semibold text-center py-2">
             Mohammad Shah Ali
           </h3>
-          <h4 className="text-sm text-center">QCA, Quantity Chemist Manager</h4>
+          <h4 className="text-sm text-center">QCA, Quality Chemist Manager</h4>
         </div>
         <div className="overflow-hidden rounded-xl shadow-2xl p-5 bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
           <img className=" object-cover rounded-xl" src={image_16} />
@@ -52,6 +53,13 @@ const Team = () => {
             Hakim Fahad Uddin Patwary
           </h3>
           <h4 className="text-sm text-center">Factory Manager & Main Hakim</h4>
+        </div>
+        <div className="overflow-hidden rounded-xl shadow-2xl p-5 bg-gradient-to-tl from-fuchsia-200 via-violet-200 to-cyan-200">
+          <img className=" object-cover rounded-xl" src={image_17} />
+          <h3 className="text-lg font-semibold text-center py-2">
+            Ashraful Omi
+          </h3>
+          <h4 className="text-sm text-center">HR Manager</h4>
         </div>
       </div>
     </div>

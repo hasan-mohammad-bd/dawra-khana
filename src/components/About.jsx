@@ -14,11 +14,11 @@ const About = () => {
               About Our Company
             </h1>
             <p className="mb-5">
-              In 1961, Md. Nasir Uddin Patwary founded Sreepur Unani Dawakhana with a noble
-              mission – to produce herbal medicine that would benefit customers
-              health and well-being. With a strong belief in the power of
-              nature, he embarked on a journey to create a company that would
-              bring the healing properties of herbs to the masses.
+              In 1961, Md. Nasir Uddin Patwary founded Sreepur Unani Dawakhana
+              with a noble mission – to produce herbal medicine that would
+              benefit customers health and well-being. With a strong belief in
+              the power of nature, he embarked on a journey to create a company
+              that would bring the healing properties of herbs to the masses.
               <br />
               <br />
               For many years, the company flourished, gaining a reputation for
@@ -30,17 +30,17 @@ const About = () => {
               road.
               <br />
               <br />
-              Halim understood that to revitalize the company, it needed a fresh
-              approach. On his first day as CEO, he implemented significant
-              changes to enhance the organization's structure and operations.
-              Recognizing the importance of efficient processes, he established
-              a supply chain department to ensure smooth procurement and
-              distribution of raw materials. Furthermore, he recognized the
+              Forid Uddin Patwary understood that to revitalize the company, it
+              needed a fresh approach. On his first day as CEO, he implemented
+              significant changes to enhance the organization's structure and
+              operations. Recognizing the importance of efficient processes, he
+              established a supply chain department to ensure smooth procurement
+              and distribution of raw materials. Furthermore, he recognized the
               value of the company's employees and established a human resources
               department to focus on their development and well-being.
               Understanding the significance of effective marketing strategies,
-              Halim also added a dedicated marketing department to promote the
-              company's products and expand its reach.
+              Forid Uddin Patwary also added a dedicated marketing department to
+              promote the company's products and expand its reach.
             </p>
           </div>
         </div>
@@ -56,26 +56,31 @@ const About = () => {
         <div className="justify-between items-center flex flex-col md:flex-row-reverse ">
           <div className="text flex-1 p-5 md:p-0">
             <div className="md:mx-8">
-                <p>
-                Halim's hard work and strategic decisions soon paid off. With
-              renewed vigor, the company began to overcome its challenges and
-              regain its position in the market. The once-struggling enterprise
-              once again became profitable, much to the delight of its
-              employees, stakeholders, and loyal customers. <br /> <br /> Buoyed by this
-              success, the company set its sights on the future. Recognizing the
-              growing importance of technology, Halim proposed the addition of
-              an IT department to further enhance the company's operations and
-              embrace digital advancements. By leveraging technology, the
-              company aimed to streamline its processes, improve efficiency, and
-              better serve its customers. <br /><br /> As the company flourished, it
-              continued to receive overwhelming positive feedback from customers
-              who experienced the benefits of the herbal products firsthand.
-              Listening to their needs and demands, the company also diversified
-              its offerings, introducing new medicines tailored to meet specific
-              patient requirements. This customer-centric approach further
-              solidified the company's reputation and contributed to its ongoing
-              success.
-                </p>
+              <p>
+                Forid Uddin Patwary's hard work and strategic decisions soon
+                paid off. With renewed vigor, the company began to overcome its
+                challenges and regain its position in the market. The
+                once-struggling enterprise once again became profitable, much to
+                the delight of its employees, stakeholders, and loyal customers.
+                <br /> <br /> Buoyed by this success, the company set its sights
+                on the future. Recognizing the growing importance of technology,
+                Forid Uddin Patwary proposed the addition of an IT department to
+                further enhance the company's operations and embrace digital
+                advancements. By leveraging technology, the company aimed to
+                streamline its processes, improve efficiency, and better serve
+                its customers. <br />
+                <br /> As the company flourished, it became one of the top union
+                based herbal medicine company in Bangladesh. Now the company
+                running it's operation with over 100 employees under the license
+                No. U-257, and it continued to receive overwhelming positive
+                feedback from customers who experienced the benefits of the
+                herbal products firsthand. Listening to their needs and demands,
+                the company also diversified its offerings, introducing new
+                medicines tailored to meet specific patient requirements. This
+                customer-centric approach further solidified the company's
+                reputation and contributed to its ongoing success. <br />
+                <br />
+              </p>
             </div>
           </div>
           <div className="img flex-1">
@@ -83,7 +88,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Mission/>
+      <Mission />
     </div>
   );
 };

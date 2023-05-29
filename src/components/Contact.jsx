@@ -31,17 +31,14 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
-      toast("Mail Sent!");
-    setFormValues({
-      name: "",
-      email: "",
-      message: "",
-    });
+      e.target.reset()
+      toast.success("Mail Sent!");
+
   };
   return (
     <div>
       <form
-        className="flex flex-col rounded-xl p-8 m-5 shadow-2xl md:w-[600px]"
+        className="flex flex-col rounded-xl p-8 m-5 shadow-2xl lg:w-[600px]"
         ref={form}
         onSubmit={sendEmail}
       >
